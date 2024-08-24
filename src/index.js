@@ -1,13 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Home from './component/Home';
+import Card from './component/Card';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Home />
+    <Card 
+     img = "https://picsum.photos/200/200"
+     name = "Bilal Khan"
+     joined = "2024"
+     disc = "Started react recently"
+     offriend = "4"
+    />
   </React.StrictMode>
 );
 
