@@ -1,19 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Card from './component/Card';
+// import Card from './component/Card';
 import reportWebVitals from './reportWebVitals';
+import Showhide from './component/Showhide';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Card 
+    {/* <Card 
      img = "https://picsum.photos/200/200"
      name = "Bilal Khan"
      joined = "2024"
      disc = "Started react recently"
      offriend = "4"
-    />
+    /> */}
+    <Showhide />
   </React.StrictMode>
 );
 
