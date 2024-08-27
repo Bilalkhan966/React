@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 // import Card from './component/Card';
 import reportWebVitals from './reportWebVitals';
-import Todo from './component/Todo';
+import RandomNo from './component/RandomNo';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,7 +15,7 @@ root.render(
      disc = "Started react recently"
      offriend = "4"
     /> */}
-    <Todo />
+    <RandomNo />
   </React.StrictMode>
 );
 
